@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Jupyter Book Tutorial &#8212; Jupyter Book Template</title>
+    <title>Information Visualization &#8212; Jupyter Book Template</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -52,7 +52,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -61,7 +61,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Example Notebook" href="notebook.html" />
+    <link rel="next" title="Introduction" href="notebook.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -97,15 +97,15 @@
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
-        class="form-control"
-        name="q"
-        id="search-input"
-        placeholder="Search this book..."
-        aria-label="Search this book..."
-        autocomplete="off"
-        autocorrect="off"
-        autocapitalize="off"
-        spellcheck="false"/>
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
@@ -152,6 +152,7 @@
   
   
     <p class="title logo__title">Gender loonkloof</p>
+
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -172,10 +173,13 @@
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
                     Gender loonkloof: myth or math
+
                 </a>
             </li>
         </ul>
         <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="notebook.html">Introduction</a></li>
+
 </ul>
 
     </div>
@@ -243,6 +247,37 @@
       
   </ul>
 </div>
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/yenchiah/jupyter-book-template/blob/main/docs/docs/home.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
 
 
 
@@ -386,7 +421,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Jupyter Book Tutorial AAAA</h1>
+    <h1>Information Visualization</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -396,27 +431,30 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#register-a-github-account">Register a GitHub account</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-github-personal-access-token">Create a GitHub personal access token</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-the-environment-to-run-jupyter-notebook">Install the environment to run Jupyter notebook</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-git-and-git-bash-windows-only">Install git and Git Bash (Windows only)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#familiarize-yourself-with-git">Familiarize yourself with git</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Information Visualization</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introductie">Introductie</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#perspectief-1-systemische-ongelijkheid-en-structurele-barrieres">Perspectief 1: Systemische ongelijkheid en structurele barrières</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#perspectief-2-individuele-keuzes-en-rolpatronen">Perspectief 2: Individuele keuzes en rolpatronen</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-install-conda">Step 1: Install conda</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-install-jupyter-book">Step 2: Install Jupyter Book</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#for-mac-and-linux-to-install-jupyter-book">For Mac and Linux to install Jupyter Book</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#for-windows-to-install-jupyter-book">For Windows to install Jupyter Book</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-and-preprocessing">Dataset and Preprocessing</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-1-glassdoor-analyze-gender-pay-gap">Dataset 1 - Glassdoor - Analyze Gender Pay Gap</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#belangrijkste-variabelen-voor-analyse">Belangrijkste variabelen voor analyse:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing-stappen">Preprocessing-stappen:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-create-a-new-repository">Step 3: Create a new repository</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-build-the-book-locally">Step 4: Build the book locally</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-deploy-the-book-online">Step 5: Deploy the book online</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#update-the-website-content">Update the website content</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-2-gender-pay-gap-dataset">Dataset 2 - Gender Pay Gap Dataset</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#de-dataset-bevat-per-individu-gegevens-over">De dataset bevat per individu gegevens over:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Preprocessing-stappen:</a></li>
 </ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-vanuit-eigen-perspectief">Analyse vanuit eigen perspectief</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#reflectie">Reflectie</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#werkverdeling">Werkverdeling</a></li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -427,372 +465,644 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="jupyter-book-tutorial">
-<h1>Jupyter Book Tutorial<a class="headerlink" href="#jupyter-book-tutorial" title="Link to this heading">#</a></h1>
-<p>(Last updated: May 27, 2025)</p>
-<p>In this tutorial, we will teach you how to create a Jupyter book and deploy it online.
-This page is written in markdown, which also serves as an example.
-All the content on this website is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This tutorial only mentions the basics.
-For more advanced usage of Jupyter Book (e.g., using this special content block, editing the configuration file <code class="docutils literal notranslate"><span class="pre">_config.yml</span></code>, editing the table of content file <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code>, etc.), check <a class="reference external" href="https://jupyterbook.org/en/stable/content/index.html">the Jupyter Book documentation</a> for more information.</p>
-</div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EaETjKmXOTo?si=uAeOYk-SXi9tKXkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<section id="table-of-contents">
-<h2>Table of contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="information-visualization">
+<h1>Information Visualization<a class="headerlink" href="#information-visualization" title="Link to this heading">#</a></h1>
+<p>Your information:</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#pre"><span class="xref myst">Prerequisites</span></a></p></li>
-<li><p><a class="reference internal" href="#s1"><span class="xref myst">Step 1: Install conda</span></a></p></li>
-<li><p><a class="reference internal" href="#s2"><span class="xref myst">Step 2: Install Jupyter Book</span></a></p></li>
-<li><p><a class="reference internal" href="#s2"><span class="xref myst">Step 3: Create a new repository</span></a></p></li>
-<li><p><a class="reference internal" href="#s4"><span class="xref myst">Step 4: Build the book locally</span></a></p></li>
-<li><p><a class="reference internal" href="#s5"><span class="xref myst">Step 5: Deploy the book online</span></a></p></li>
-<li><p><a class="reference internal" href="#update"><span class="xref myst">Update the website content</span></a></p></li>
-<li><p><a class="reference internal" href="#ts"><span class="xref myst">Troubleshooting</span></a></p></li>
+<li><p>studentname, number: Eelkje Talsma, 15330931</p></li>
+<li><p>studentname, number: Esmee van Achteren, 10347321</p></li>
+<li><p>studentname, number: Micha Jansen, 15389901</p></li>
+<li><p>studentname, number: Denise Voorhorst, 14998491</p></li>
 </ul>
 </section>
-<section id="prerequisites">
-<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">#</a></h2>
-<p><a name="pre"></a></p>
-<p>Please make sure you have all the prerequisites ready before continuing this tutorial.</p>
-<section id="register-a-github-account">
-<h3>Register a GitHub account<a class="headerlink" href="#register-a-github-account" title="Link to this heading">#</a></h3>
-<p>We will use <a class="reference external" href="https://pages.github.com">GitHub Pages</a> to deploy your compiled book, which means that you need to <a class="reference external" href="https://github.com/signup">register a GitHub account</a>.</p>
+<section class="tex2jax_ignore mathjax_ignore" id="introductie">
+<h1>Introductie<a class="headerlink" href="#introductie" title="Link to this heading">#</a></h1>
+<p>De loonkloof tussen mannen en vrouwen is al decennialang onderwerp van maatschappelijk en politiek debat. Ondanks vooruitgang op het gebied van gendergelijkheid, wetgeving en maatschappelijke bewustwording, blijven er hardnekkige verschillen bestaan in de manier waarop mannen en vrouwen worden beloond voor hun werk. Vrouwen verdienen gemiddeld nog altijd minder dan mannen, zelfs bij vergelijkbare functies en opleidingsniveaus.</p>
+<p>Dit loonverschil is een complex probleem dat wordt beïnvloed door een mix van structurele en individuele factoren. Denk hierbij aan loondiscriminatie, ongelijke kansen op promotie, maar ook aan persoonlijke keuzes zoals deeltijdwerk of voorkeur voor bepaalde sectoren. De gevolgen hiervan zijn verstrekkend: vrouwen bouwen minder financiële zekerheid op, lopen vertraging op in hun loopbaanontwikkeling, en blijven op lange termijn economisch kwetsbaarder dan mannen.</p>
+<p>In deze data story onderzoeken we de gender pay gap op basis van drie internationale datasets. We richten ons op loonverschillen binnen verschillende sectoren, op functieniveau, en tussen landen over een periode van meer dan tien jaar. Aan de hand van visualisaties proberen we inzicht te krijgen in hoe deze kloof ontstaat, waar deze het grootst is, en hoe deze zich in de tijd ontwikkelt.</p>
+<p>We benaderen het vraagstuk vanuit twee invalshoeken:</p>
+<section id="perspectief-1-systemische-ongelijkheid-en-structurele-barrieres">
+<h2>Perspectief 1: Systemische ongelijkheid en structurele barrières<a class="headerlink" href="#perspectief-1-systemische-ongelijkheid-en-structurele-barrieres" title="Link to this heading">#</a></h2>
+<p>Dit perspectief stelt dat vrouwen structureel worden benadeeld in de arbeidsmarkt, onder andere door beroepssegregatie, discriminatie, ongelijke loopbaankansen en de ongelijke verdeling van zorgtaken.</p>
 </section>
-<section id="create-a-github-personal-access-token">
-<h3>Create a GitHub personal access token<a class="headerlink" href="#create-a-github-personal-access-token" title="Link to this heading">#</a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can skip this step if you download the <a class="reference external" href="https://desktop.github.com/">GitHub Desktop</a> and set it up on your local machine.
-The GitHub Desktop will guide you through the setup process, and in this way, you do not have to create a personal access token.</p>
-</div>
-<p>GitHub has a new policy that you can no longer use your account password to push file changes.
-You must <a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">create a personal access token</a> and use the token when pushing changes to a GitHub repository.
-To do so, go to <a class="reference external" href="https://github.com/settings/tokens">this page</a> to create a classic token (not the fine-grained token).
-You also need to give the token proper access permissions/scopes, as indicated in the following image:</p>
-<p><img alt="token_scope" src="../_images/token_scope.png" /></p>
-<p>You can also choose to <a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github">use other authentication methods</a>, such as using SSH keys.</p>
-</section>
-<section id="install-the-environment-to-run-jupyter-notebook">
-<h3>Install the environment to run Jupyter notebook<a class="headerlink" href="#install-the-environment-to-run-jupyter-notebook" title="Link to this heading">#</a></h3>
-<p>We assume that you have installed the environment that can edit and run Jupyter Notebook files.
-If you have not done so, check the <a class="reference external" href="https://jupyter.org">Jupyter website</a> for how to install the user interface and environment.</p>
-</section>
-<section id="install-git-and-git-bash-windows-only">
-<h3>Install git and Git Bash (Windows only)<a class="headerlink" href="#install-git-and-git-bash-windows-only" title="Link to this heading">#</a></h3>
-<p>You need a terminal (e.g., <a class="reference external" href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a> or <a class="reference external" href="https://en.wikipedia.org/wiki/Z_shell">Zsh</a>) to work with Jupyter Book.
-If you are on Windows, install <a class="reference external" href="https://git-scm.com/">the git tool</a>, which comes with a terminal called <code class="docutils literal notranslate"><span class="pre">Git</span> <span class="pre">Bash</span></code>.
-If you are on Mac or Linux, the git tool is already installed, so you can just open the terminal and start typing commands.</p>
-</section>
-<section id="familiarize-yourself-with-git">
-<h3>Familiarize yourself with git<a class="headerlink" href="#familiarize-yourself-with-git" title="Link to this heading">#</a></h3>
-<p>You will need to use <code class="docutils literal notranslate"><span class="pre">git</span></code> to work with the GitHub Pages, which requires some basic understanding of using <code class="docutils literal notranslate"><span class="pre">git</span></code>.
-If you are new to this idea, check <a class="reference external" href="https://github.com/git-guides">the git guide</a>.
-Also, here is <a class="reference external" href="https://www.youtube.com/watch?v=USjZcfj8yxE">a 15-minute Git tutorial video</a> that covers what you need for this course.</p>
+<section id="perspectief-2-individuele-keuzes-en-rolpatronen">
+<h2>Perspectief 2: Individuele keuzes en rolpatronen<a class="headerlink" href="#perspectief-2-individuele-keuzes-en-rolpatronen" title="Link to this heading">#</a></h2>
+<p>Volgens dit perspectief spelen persoonlijke en maatschappelijke keuzes een belangrijke rol, zoals het vaker kiezen voor deeltijdwerk, specifieke sectoren of het onderbreken van de loopbaan vanwege zorgverantwoordelijkheden.</p>
+<hr class="docutils" />
+<p>Door beide perspectieven te combineren en kritisch te analyseren met behulp van data, willen we een evenwichtig en genuanceerd beeld geven van de loonkloof tussen mannen en vrouwen. Onze visualisaties ondersteunen elk van de argumenten en maken het mogelijk om het complexe verhaal op een toegankelijke manier over te brengen.</p>
 </section>
 </section>
-<section id="step-1-install-conda">
-<h2>Step 1: Install conda<a class="headerlink" href="#step-1-install-conda" title="Link to this heading">#</a></h2>
-<p><a name="s1"></a></p>
-<p>The first step is installing the conda virtual environment using <a class="reference external" href="https://docs.conda.io/en/main/miniconda.html">miniconda</a> or <a class="reference external" href="https://www.anaconda.com/">anaconda</a>.
-Pick either one of them and follow the instructions on the website to install conda so that you can use the <code class="docutils literal notranslate"><span class="pre">conda</span></code> command on your terminal.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>If you already have <code class="docutils literal notranslate"><span class="pre">conda</span></code> installed on your machine, you can skip this step. Check your <code class="docutils literal notranslate"><span class="pre">conda</span></code> installation by running the following command:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>--version
-</pre></div>
-</div>
-<p>If <code class="docutils literal notranslate"><span class="pre">conda</span></code> is installed, you should see a printed message with the version number.
-If you installed Jupyter Notebook before, it is highly likely that you already have anaconda on your machine.</p>
-</div>
-<p>We recommend using miniconda since it is light-weighted, and you can avoid waiting for a long time to install many packages that may not be necessary.
-If you already have the conda environment ready on your machine, you can skip this step.</p>
-<p>For Mac users, you can also install miniconda using the <a class="reference external" href="https://brew.sh/">Homebrew</a> package manager, as documented on <a class="reference external" href="https://formulae.brew.sh/cask/miniconda">this page</a>:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>brew<span class="w"> </span>install<span class="w"> </span>--cask<span class="w"> </span>miniconda
-<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export PATH=&quot;/usr/local/Caskroom/miniconda/base/bin:$PATH&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bash_profile
-<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;. /usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bash_profile
-<span class="nb">source</span><span class="w"> </span>~/.bash_profile
-</pre></div>
-</div>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>If you are using Windows, choose the way of using the installer to set up conda (not the portable one).
-When running the installation, <strong>make sure that you need to tick the box to allow the installer to set the system environment path for conda</strong>.
-Otherwise, your terminal will not be able to find the conda command.</p>
-</div>
+<section class="tex2jax_ignore mathjax_ignore" id="dataset-and-preprocessing">
+<h1>Dataset and Preprocessing<a class="headerlink" href="#dataset-and-preprocessing" title="Link to this heading">#</a></h1>
+<section id="dataset-1-glassdoor-analyze-gender-pay-gap">
+<h2>Dataset 1 - Glassdoor - Analyze Gender Pay Gap<a class="headerlink" href="#dataset-1-glassdoor-analyze-gender-pay-gap" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap">https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap</a></p>
+<p>Voor deze data-analyse maken we gebruik van een internationale dataset die geanonimiseerde salarisgegevens bevat van werknemers uit verschillende delen van de wereld. De focus ligt op het onderzoeken van het loonverschil tussen mannen en vrouwen. De dataset bevat een breed scala aan variabelen die inzicht geven in zowel de demografische achtergrond van werknemers als hun werk- en inkomenssituatie.</p>
+<section id="belangrijkste-variabelen-voor-analyse">
+<h3>Belangrijkste variabelen voor analyse:<a class="headerlink" href="#belangrijkste-variabelen-voor-analyse" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Gender</strong><br />
+Geeft aan of het gaat om een vrouw (Female) of een man (Male). Deze variabele vormt de basis voor onze vergelijkingen en het bepalen van de loonkloof.</p></li>
+<li><p><strong>Education</strong><br />
+De hoogst behaalde opleiding van elke werknemer, gecategoriseerd als <em>High School</em>, <em>College</em>, <em>Masters</em> of <em>PhD</em>. Hiermee kunnen we controleren of het opleidingsniveau van invloed is op de loonkloof.</p></li>
+<li><p><strong>Department</strong><br />
+De afdeling waarin de werknemer actief is, zoals <em>Sales</em>, <em>Engineering</em>, <em>HR</em> of <em>Finance</em>. Aangezien verschillende afdelingen verschillende beloningsstructuren hebben, is het belangrijk om sectorale verschillen mee te nemen in de analyse.</p></li>
+<li><p><strong>BasePay</strong><br />
+Het jaarsalaris van de werknemer, exclusief bonussen of andere extra vergoedingen. Deze waarde gebruiken we als maatstaf voor de vergelijking van het vaste inkomen tussen mannen en vrouwen.</p></li>
+</ul>
 </section>
-<section id="step-2-install-jupyter-book">
-<h2>Step 2: Install Jupyter Book<a class="headerlink" href="#step-2-install-jupyter-book" title="Link to this heading">#</a></h2>
-<p><a name="s2"></a></p>
-<p>In this step, you will install the Jupyter Book package.
-Notice that there are two sections in this step.
-One for Mac/Linux users, and another one for Windows users.</p>
-<section id="for-mac-and-linux-to-install-jupyter-book">
-<h3>For Mac and Linux to install Jupyter Book<a class="headerlink" href="#for-mac-and-linux-to-install-jupyter-book" title="Link to this heading">#</a></h3>
-<p>Now, create a new conda environment using the command below.
-We need to install Jupyter Book in the conda environment.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>jupyterbook<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10
-</pre></div>
-</div>
-<p>After you have the environment ready, activate it.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>jupyterbook
-</pre></div>
-</div>
-<p>Finally, install the packages that are needed for building and compiling notebooks.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>jupyter-book
-</pre></div>
-</div>
-<p>Check if Jupyter Book is installed correctly using the following command.
-Having no error messages means that Jupyter Book is installed correctly.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>--help
-</pre></div>
-</div>
-</section>
-<section id="for-windows-to-install-jupyter-book">
-<h3>For Windows to install Jupyter Book<a class="headerlink" href="#for-windows-to-install-jupyter-book" title="Link to this heading">#</a></h3>
-<p>Windows has a known problem that the conda installation for Jupyter Book can be pending forever.
-We have figured out a specific solution for this.
-You need to follow the exact ordering in this part.
-Missing any step or using the incorrect ordering can result in a forever-pending problem.</p>
-<p>First, open your Git Bash that comes with the git tool installation.
-If you do not know where to find your Git Bash, search it in the search bar near the Windows start button.
-Do not use the Window command prompt, as it is using a different command line system and will not work for our case.</p>
-<p>When you open the terminal, you should see a <code class="docutils literal notranslate"><span class="pre">(base)</span></code> text in the terminal, such as below:</p>
-<p><code class="docutils literal notranslate"><span class="pre">(base)</span> <span class="pre">abc&#64;ABC-windows</span> <span class="pre">~</span></code></p>
-<p>If you did not see it, run the following:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate
-</pre></div>
-</div>
-<p>The above command should now brings you to the <code class="docutils literal notranslate"><span class="pre">(base)</span></code> environment in conda.
-If there is an error message, it is possible that your terminal does not recognize conda yet.
-In this case, run the following:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>init<span class="w"> </span>bash
-</pre></div>
-</div>
-<p><strong>Then, close your Git Bash and re-open it.</strong>
-Now, you should be in the <code class="docutils literal notranslate"><span class="pre">(base)</span></code> conda environment.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Sometimes the terminal needs to load new settings after you install new things, such as conda.
-Make sure that you close the entire terminal program and re-launch it.</p>
-</div>
-<p>Next, create a new conda environment.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>jupyterbook<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10
-</pre></div>
-</div>
-<p>After you have the environment ready, activate it.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>jupyterbook
-</pre></div>
-</div>
-<p>Then, install Jupyter Book using <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>. Do not use <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code>, which will likely cause errors.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>jupyter-book
-</pre></div>
-</div>
-<p>This installation may take several minutes, as conda needs to solve the environment.
-So please be patient and wait until it is finished.</p>
-<p>Finally, check if Jupyter Book is installed correctly using the following command.
-Having no error messages means that Jupyter Book is installed correctly.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>--help
-</pre></div>
-</div>
+<hr class="docutils" />
+<section id="preprocessing-stappen">
+<h3>Preprocessing-stappen:<a class="headerlink" href="#preprocessing-stappen" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Verwijdering van onvolledige of inconsistente gegevens (bijv. ontbrekende waardes in <em>BasePay</em> of onduidelijke genders)</p></li>
+<li><p>Standaardisatie van categorienamen (zoals “Engineering” vs “engineering”)</p></li>
+<li><p>Groepering en aggregatie van gegevens op basis van <em>gender</em>, <em>afdeling</em>, <em>opleiding</em> en <em>salaris</em></p></li>
+<li><p>Berekening van het gemiddelde verschil in <em>BasePay</em> tussen mannen en vrouwen binnen identieke categorieën</p></li>
+</ul>
+<hr class="docutils" />
+<p>Deze voorbereiding maakt het mogelijk om visuele vergelijkingen te maken die zowel overzichtelijk als betekenisvol zijn, en die bijdragen aan het beantwoorden van onze centrale onderzoeksvraag: <strong>in welke mate is er sprake van een structurele of verklaarbare loonkloof tussen mannen en vrouwen?</strong></p>
 </section>
 </section>
-<section id="step-3-create-a-new-repository">
-<h2>Step 3: Create a new repository<a class="headerlink" href="#step-3-create-a-new-repository" title="Link to this heading">#</a></h2>
-<p><a name="s3"></a></p>
-<p>Next, we need to create a new repository to host your website and code using this tutorial as the template.
-Clone our tutorial repository (which downloads the code to your local machine):</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/yenchiah/jupyter-book-template
-</pre></div>
-</div>
-<p>The cloned tutorial repository has the template files that you need to build your website.
-We are only using the template for reference.</p>
-<p>Next, go into the template folder and delete the old <code class="docutils literal notranslate"><span class="pre">git</span></code> history from the template since we do not need them. For Mac and Linux, run the following commands:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>jupyter-book-template
-rm<span class="w"> </span>-rf<span class="w"> </span>.git
-<span class="nb">cd</span><span class="w"> </span>..
-</pre></div>
-</div>
-<p>For Windows, we recommand using the bash terminal that comes with the git tool. If the above commands do not work, maybe you are running a different terminal system on Windows. Try the following commands instead if the above ones do not work.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>jupyter-book-template
-del<span class="w"> </span>.git
-<span class="nb">cd</span><span class="w"> </span>..
-</pre></div>
-</div>
-<p>To have your repository that can host your website and code, <a class="reference external" href="https://github.com/new">create a new repository</a> and work from there.
-Make sure that your repository is public, and do not add a README file.
-You also do not need to add the <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file and <code class="docutils literal notranslate"><span class="pre">license</span></code>.</p>
-<p>Then, clone your newly created (and currently empty) repository to your local machine.
-Remember to use the proper account user name (i.e., replacing <code class="docutils literal notranslate"><span class="pre">MY_USER_NAME</span></code>) and repository name (i.e., replacing <code class="docutils literal notranslate"><span class="pre">MY_REPOSITORY_NAME</span></code>) in the URL that you want to clone.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/MY_USER_NAME/MY_REPOSITORY_NAME
+<section id="dataset-2-gender-pay-gap-dataset">
+<h2>Dataset 2 - Gender Pay Gap Dataset<a class="headerlink" href="#dataset-2-gender-pay-gap-dataset" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.kaggle.com/datasets/fedesoriano/gender-pay-gap-dataset/data">https://www.kaggle.com/datasets/fedesoriano/gender-pay-gap-dataset/data</a></p>
+<p>De tweede dataset die we in deze analyse gebruiken, bevat uitgebreide informatie over individuele arbeidsinkomens tussen 1980 en 2010. De focus ligt op het onderzoeken van inkomensverschillen tussen mannen en vrouwen, met aandacht voor meerdere gerelateerde factoren zoals opleiding, aantal gewerkte uren, beroep en sector. Deze dataset biedt ons de mogelijkheid om de genderloonkloof vanuit historisch perspectief te bekijken en te analyseren hoe verschillende persoonlijke en professionele factoren samenhangen met inkomensongelijkheid.</p>
+<section id="de-dataset-bevat-per-individu-gegevens-over">
+<h3>De dataset bevat per individu gegevens over:<a class="headerlink" href="#de-dataset-bevat-per-individu-gegevens-over" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Geslacht (Sex)</strong><br />
+Gecodeerd als man (Male) of vrouw (Female).</p></li>
+<li><p><strong>Aantal jaren onderwijs (Sch)</strong><br />
+Het totaal aantal jaren dat iemand onderwijs heeft gevolgd. Deze variabele helpt ons om het opleidingsniveau in te schatten.</p></li>
+<li><p><strong>Aantal gewerkte uren per jaar (annhrs)</strong><br />
+Hiermee kunnen we het effect van werktijd op het jaarlijkse inkomen onderzoeken en het aandeel parttime en fulltime meenemen in onze interpretaties.</p></li>
+<li><p><strong>Jaarlijkse arbeidsinkomen (annlabinc)</strong><br />
+Het totale inkomen dat iemand per jaar verdient uit arbeid; uitgedrukt in dollars. Dit is de kernvariabele voor inkomensvergelijking.</p></li>
+<li><p><strong>Beroep (occ)</strong><br />
+De functie of beroepsgroep waarin iemand werkt, gecodeerd op basis van de officiële <em>Standard Occupational Classification (SOC)</em> van de U.S. Bureau of Labor Statistics.</p></li>
+<li><p><strong>Sector (Ind)</strong><br />
+De sector waarin iemand werkzaam is, wordt gecodeerd volgens het <em>North American Industry Classification System (NAICS)</em>.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h3>Preprocessing-stappen:<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Selectie van observaties met complete gegevens voor de zes kernvariabelen</p></li>
+<li><p>Normalisatie van inkomensgegevens (indien nodig per jaar) om inflatie-effecten te corrigeren</p></li>
+<li><p>Categorisering van <em>Sch</em> naar opleidingsniveaus (bijv. “High School”, “Bachelor”, “Master”)</p></li>
+<li><p>Groepering en filtering per geslacht, sector, opleiding en werktijd om gerichte vergelijkingen mogelijk te maken</p></li>
+<li><p>Berekening van gemiddelde jaarlijkse werktijd en inkomen per groep (bijv. vrouwen met een bacheloropleiding in de industriesector)</p></li>
+</ul>
+<hr class="docutils" />
+<p>Deze dataset biedt ons een waardevolle historische aanvulling op de meer recente en sectorgerichte datasets. Samen leveren deze bronnen een breder en dieper begrip van hoe inkomensongelijkheid tussen mannen en vrouwen ontstaat <strong>én</strong> in stand blijft.</p>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="analyse-vanuit-eigen-perspectief">
+<h1>Analyse vanuit eigen perspectief<a class="headerlink" href="#analyse-vanuit-eigen-perspectief" title="Link to this heading">#</a></h1>
+<p>De gender loonkloof draait niet alleen om het verschil in loon, maar staat ook voor de ongelijkheid dat diverse gevolgen met zich meebrengt. Een mogelijk gevolg is het opbouwen van minder pensioen of minder finaniele zekerheid in het algemeen. Uit recentelijk onderzoek is gebleken dat vrouwen in Europa gemiddeld 16% minder per uur verdienen vergeleken mannen (University of Sunderland, z.d.). Maar dit cijfer vertelt niet het hele verhaal. De loonkloof wordt namelijk beïnvloed door allerlei factoren, zoals de leeftijd en het opleidingsniveau.</p>
+<p>In deze data-analyse gaan we dieper in op hoe educatie en leeftijd samenhangen met de loonkloof, en hoe deze factoren een verschil maken per sector en functie.</p>
+<p><strong>Loonkloof tussen mannen en vrouwen in verschillende afdelingen:</strong></p>
+<p>Totalpay is een optelling van de ‘Basepay’ en de ‘Bonus’.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
 
-<span class="c1"># Below is one example of the URL</span>
-<span class="c1"># https://github.com/abc/example-repo</span>
-</pre></div>
-</div>
-<p>Now, copy all the template files and folders from the tutorial repository to this newly created repository.
-Again, remember to use the correct repository name (i.e., replacing <code class="docutils literal notranslate"><span class="pre">MY_REPOSITORY_NAME</span></code> to your repository name).</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>cp<span class="w"> </span>-r<span class="w"> </span>jupyter-book-template/*<span class="w"> </span>MY_REPOSITORY_NAME/
-</pre></div>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Notice that you need to use a terminal to copy all the files (but not drag/drop or copy/paste files with the user interface).
-Otherwise, you will fail to copy the hidden files, such as the <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> or <code class="docutils literal notranslate"><span class="pre">.gitmodules</span></code> files.</p>
-</div>
-</section>
-<section id="step-4-build-the-book-locally">
-<h2>Step 4: Build the book locally<a class="headerlink" href="#step-4-build-the-book-locally" title="Link to this heading">#</a></h2>
-<p><a name="s4"></a></p>
-<p>Now we are going to compile and build your book on your local machine.
-Inside your conda environment, we need to install some required Python packages:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>numpy
-pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>plotly
-pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>pandas
-pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>matplotlib
-pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>seaborn
-</pre></div>
-</div>
-<p>To build the book, run the following command.
-Remember that you must go to the repository folder  (i.e., replacing <code class="docutils literal notranslate"><span class="pre">MY_REPOSITORY_NAME</span></code>) that you just cloned.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>MY_REPOSITORY_NAME
-jupyter-book<span class="w"> </span>build<span class="w"> </span>.
-</pre></div>
-</div>
-<p>The above command only builds the newly-updated files since the last time you built the book.
-Sometimes you may want to build the entire book from scratch, and you can use the following:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>build<span class="w"> </span>--all<span class="w"> </span>.
-</pre></div>
-</div>
-<p>After building the book, all the html files in the <code class="docutils literal notranslate"><span class="pre">_build/html/</span></code> directory will be updated.
-You can then use your browser to open the files locally on your machine to view the compiled notebooks and markdown files.
-You can also install a <a class="reference external" href="https://httpd.apache.org/">local Apache HTTP Server</a> to view the files since the html files are sometimes incorrectly displayed if opened using a browser.</p>
-<p>We also already set up the configuration file <code class="docutils literal notranslate"><span class="pre">_config.yml</span></code> and the table of content file <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> for you.
-You need to edit the <code class="docutils literal notranslate"><span class="pre">_config.yml</span></code> file to make it suitable for your use case.
-For more information about how to edit them, check <a class="reference external" href="https://jupyterbook.org/en/stable/start/create.html">this documentation</a>.</p>
-</section>
-<section id="step-5-deploy-the-book-online">
-<h2>Step 5: Deploy the book online<a class="headerlink" href="#step-5-deploy-the-book-online" title="Link to this heading">#</a></h2>
-<p><a name="s5"></a></p>
-<p>Now, we have the compiled website files ready, and we can move on to deploy the website.
-We will do this using the <a class="reference external" href="https://pages.github.com">GitHub Pages</a>.</p>
-<p>First, go to the repository folder on your computer and use <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code> to indicate that you want to push these files to the remote GitHub repository.
-Replace <code class="docutils literal notranslate"><span class="pre">MY_REPOSITORY_NAME</span></code> with your repository name.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>MY_REPOSITORY_NAME
-git<span class="w"> </span>add<span class="w"> </span>.
-</pre></div>
-</div>
-<p>Run the following to check if you add the files.
-You should see green marked messages in the terminal.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>status
-</pre></div>
-</div>
-<p>Then, commit the changes that you want to make using a message.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Add my first book!&quot;</span>
-</pre></div>
-</div>
-<p>Next, push your code and files on your local machine to your remote repository.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push
-</pre></div>
-</div>
-<p>The above commands push your code to the main branch.
-Remember to enter your personal access token (not password) when asked to do so.
-If you use the SSH key authentication method, it will not ask you to enter the personal access token.</p>
-<p>Next, we need to use the <a class="reference external" href="https://github.com/c-w/ghp-import">ghp-import</a> package to push your website code to a separate branch.
-To use the package, run the following to install it:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="c1"># For Mac and Linux users</span>
-pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>ghp-import
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;Glassdoor Gender Pay Gap.csv&quot;</span><span class="p">)</span>
 
-<span class="c1"># For Windows users</span>
-conda<span class="w"> </span>install<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>ghp-import
+<span class="n">df</span><span class="p">[</span><span class="s2">&quot;TotalPay&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;BasePay&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Bonus&quot;</span><span class="p">]</span>
+
+<span class="n">dept_gender</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;Dept&quot;</span><span class="p">,</span> <span class="s2">&quot;Gender&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s2">&quot;TotalPay&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span>
+    <span class="n">dept_gender</span><span class="p">,</span>
+    <span class="n">x</span><span class="o">=</span><span class="s2">&quot;Dept&quot;</span><span class="p">,</span>
+    <span class="n">y</span><span class="o">=</span><span class="s2">&quot;TotalPay&quot;</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="s2">&quot;Gender&quot;</span><span class="p">,</span>
+    <span class="n">barmode</span><span class="o">=</span><span class="s2">&quot;group&quot;</span><span class="p">,</span>
+    <span class="n">labels</span><span class="o">=</span><span class="p">{</span>
+        <span class="s2">&quot;Dept&quot;</span><span class="p">:</span> <span class="s2">&quot;Afdeling&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;TotalPay&quot;</span><span class="p">:</span> <span class="s2">&quot;Gemiddeld totaal salaris (USD)&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Gender&quot;</span><span class="p">:</span> <span class="s2">&quot;Geslacht&quot;</span>
+    <span class="p">},</span>
+    <span class="n">color_discrete_map</span><span class="o">=</span><span class="p">{</span>
+        <span class="s2">&quot;Male&quot;</span><span class="p">:</span> <span class="s2">&quot;#ADD8E6&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Female&quot;</span><span class="p">:</span> <span class="s2">&quot;#FFB6C1&quot;</span>
+    <span class="p">},</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Gemiddeld totaal salaris per afdeling, mannen tegenover vrouwen&quot;</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">xaxis_title</span><span class="o">=</span><span class="s2">&quot;Afdeling&quot;</span><span class="p">,</span>
+    <span class="n">yaxis_title</span><span class="o">=</span><span class="s2">&quot;Gemiddelde Total Pay (USD)&quot;</span><span class="p">,</span>
+    <span class="n">legend_title</span><span class="o">=</span><span class="s2">&quot;Geslacht&quot;</span><span class="p">,</span>
+    <span class="n">template</span><span class="o">=</span><span class="s2">&quot;plotly_white&quot;</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>Then, run the following command to push your html files to the <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>ghp-import<span class="w"> </span>-n<span class="w"> </span>-p<span class="w"> </span>-f<span class="w"> </span>_build/html
+</div>
+<div class="cell_output docutils container">
+</div>
+</div>
+<p>Wat opvalt in deze grafiek is dat mannen gemiddeld meer verdienen dan vrouwen in alle verschillende afdelingen. Het verschil is het grootst in gebieden zoals engineering en sales. Het verschil is het kleinst in management en operations. Ondanks dat de data zich spreidt over verschillende afdelingen, laat de visualisatie toch zien dat er een gender loonkloof bestaat onafhankelijk van de afdeling.</p>
+<p><strong>Leeftijd</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PanelStudyIncomeDynamics.csv&#39;</span><span class="p">)</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">0</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+<span class="n">age_wage</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;age&#39;</span><span class="p">,</span> <span class="s1">&#39;gender&#39;</span><span class="p">])[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">age_wage</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;age&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;gender&#39;</span><span class="p">,</span>
+              <span class="n">color_discrete_map</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;Man&#39;</span><span class="p">:</span> <span class="s1">&#39;lightblue&#39;</span><span class="p">,</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">:</span> <span class="s1">&#39;pink&#39;</span><span class="p">},</span>
+              <span class="n">labels</span><span class="o">=</span><span class="p">{</span>
+                  <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="s1">&#39;Leeftijd&#39;</span><span class="p">,</span>
+                  <span class="s1">&#39;realhrwage&#39;</span><span class="p">:</span> <span class="s1">&#39;Gemiddeld uurloon (gecorrigeerd voor inflatie)&#39;</span><span class="p">,</span>
+                  <span class="s1">&#39;gender&#39;</span><span class="p">:</span> <span class="s1">&#39;Geslacht&#39;</span>
+              <span class="p">},</span>
+              <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Gemiddeld uurloon per leeftijd (m/v)&#39;</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">template</span><span class="o">=</span><span class="s1">&#39;plotly_white&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>After this, go to the URL that points to your GitHub repository, click “Settings” -&gt; “Pages” to go to the page settings.
-You should see a message similar to “Your site is live at [XXX]”, where “[XXX]” is your website URL that is publicly accessible, as shown below:</p>
-<p><img alt="github_page_url" src="../_images/github_page_url.png" /></p>
-<p>Also, sometimes it will take a while for GitHub to update your webpage content.
-You can check the “Actions” page to check the status.
-For example, here is the <a class="reference external" href="https://github.com/yenchiah/jupyter-book-template/actions">Actions page for our tutorial repository</a>.</p>
-<p>You now have the public URL for your website.
-More information about how to publish your book can be found on <a class="reference external" href="https://jupyterbook.org/en/stable/start/publish.html">this documentation</a>.</p>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PanelStudyIncomeDynamics.csv&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">0</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="n">age_wage</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;age&#39;</span><span class="p">,</span> <span class="s1">&#39;gender&#39;</span><span class="p">])[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="nn">File ~/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/pandas/io/parsers/readers.py:1026,</span> in <span class="ni">read_csv</span><span class="nt">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1013</span> <span class="n">kwds_defaults</span> <span class="o">=</span> <span class="n">_refine_defaults_read</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1014</span>     <span class="n">dialect</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1015</span>     <span class="n">delimiter</span><span class="p">,</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1022</span>     <span class="n">dtype_backend</span><span class="o">=</span><span class="n">dtype_backend</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1023</span> <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1024</span> <span class="n">kwds</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">kwds_defaults</span><span class="p">)</span>
+<span class="ne">-&gt; </span><span class="mi">1026</span> <span class="k">return</span> <span class="n">_read</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="n">kwds</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/pandas/io/parsers/readers.py:620,</span> in <span class="ni">_read</span><span class="nt">(filepath_or_buffer, kwds)</span>
+<span class="g g-Whitespace">    </span><span class="mi">617</span> <span class="n">_validate_names</span><span class="p">(</span><span class="n">kwds</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;names&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">619</span> <span class="c1"># Create the parser.</span>
+<span class="ne">--&gt; </span><span class="mi">620</span> <span class="n">parser</span> <span class="o">=</span> <span class="n">TextFileReader</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">622</span> <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">or</span> <span class="n">iterator</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">623</span>     <span class="k">return</span> <span class="n">parser</span>
+
+<span class="nn">File ~/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/pandas/io/parsers/readers.py:1620,</span> in <span class="ni">TextFileReader.__init__</span><span class="nt">(self, f, engine, **kwds)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1617</span>     <span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">kwds</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span>
+<span class="g g-Whitespace">   </span><span class="mi">1619</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="p">:</span> <span class="n">IOHandles</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="ne">-&gt; </span><span class="mi">1620</span> <span class="bp">self</span><span class="o">.</span><span class="n">_engine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_engine</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/pandas/io/parsers/readers.py:1880,</span> in <span class="ni">TextFileReader._make_engine</span><span class="nt">(self, f, engine)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1878</span>     <span class="k">if</span> <span class="s2">&quot;b&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">mode</span><span class="p">:</span>
+<span class="g g-Whitespace">   </span><span class="mi">1879</span>         <span class="n">mode</span> <span class="o">+=</span> <span class="s2">&quot;b&quot;</span>
+<span class="ne">-&gt; </span><span class="mi">1880</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="o">=</span> <span class="n">get_handle</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1881</span>     <span class="n">f</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1882</span>     <span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1883</span>     <span class="n">encoding</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1884</span>     <span class="n">compression</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;compression&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1885</span>     <span class="n">memory_map</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;memory_map&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1886</span>     <span class="n">is_text</span><span class="o">=</span><span class="n">is_text</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1887</span>     <span class="n">errors</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding_errors&quot;</span><span class="p">,</span> <span class="s2">&quot;strict&quot;</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1888</span>     <span class="n">storage_options</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;storage_options&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1889</span> <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1890</span> <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+<span class="g g-Whitespace">   </span><span class="mi">1891</span> <span class="n">f</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="o">.</span><span class="n">handle</span>
+
+<span class="nn">File ~/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/pandas/io/common.py:873,</span> in <span class="ni">get_handle</span><span class="nt">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">868</span> <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">869</span>     <span class="c1"># Check whether the filename is to be opened in binary mode.</span>
+<span class="g g-Whitespace">    </span><span class="mi">870</span>     <span class="c1"># Binary mode does not support &#39;encoding&#39; and &#39;newline&#39;.</span>
+<span class="g g-Whitespace">    </span><span class="mi">871</span>     <span class="k">if</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">encoding</span> <span class="ow">and</span> <span class="s2">&quot;b&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">872</span>         <span class="c1"># Encoding</span>
+<span class="ne">--&gt; </span><span class="mi">873</span>         <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">874</span>             <span class="n">handle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">875</span>             <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">876</span>             <span class="n">encoding</span><span class="o">=</span><span class="n">ioargs</span><span class="o">.</span><span class="n">encoding</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">877</span>             <span class="n">errors</span><span class="o">=</span><span class="n">errors</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">878</span>             <span class="n">newline</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">879</span>         <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">880</span>     <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">881</span>         <span class="c1"># Binary mode</span>
+<span class="g g-Whitespace">    </span><span class="mi">882</span>         <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">)</span>
+
+<span class="ne">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;PanelStudyIncomeDynamics.csv&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>Deze lijngrafiek laat het gemiddelde uurloon per leeftijd zien, gescheiden voor mannen en vrouwen. Zo wordt duidelijk hoe het uurloon bij beide geslachten verandert naarmate ze ouder worden, en waar de verschillen in salaris tussen mannen en vrouwen ontstaan en groter worden, wat inzicht geeft in de loonontwikkeling per geslacht.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PanelStudyIncomeDynamics.csv&#39;</span><span class="p">)</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">0</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+
+<span class="n">bins</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">+</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s1">-</span><span class="si">{</span><span class="n">b</span><span class="o">+</span><span class="mi">4</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">bins</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;age_group&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="n">bins</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="n">grouped</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;age_group&#39;</span><span class="p">,</span> <span class="s1">&#39;gender&#39;</span><span class="p">])[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">pivot</span> <span class="o">=</span> <span class="n">grouped</span><span class="o">.</span><span class="n">pivot</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;age_group&#39;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="s1">&#39;gender&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;verschil&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;Vrouw&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;Man&#39;</span><span class="p">])</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span>
+    <span class="n">pivot</span><span class="p">,</span>
+    <span class="n">x</span><span class="o">=</span><span class="s1">&#39;age_group&#39;</span><span class="p">,</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;verschil&#39;</span><span class="p">,</span>
+    <span class="n">labels</span><span class="o">=</span><span class="p">{</span>
+        <span class="s1">&#39;age_group&#39;</span><span class="p">:</span> <span class="s1">&#39;Leeftijdsgroep&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;verschil&#39;</span><span class="p">:</span> <span class="s1">&#39;Uurloon verschil (absoluut)&#39;</span>
+    <span class="p">},</span>
+    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Absoluut verschil gemiddeld uurloon tussen vrouw en man per leeftijdsgroep&#39;</span><span class="p">,</span>
+    <span class="n">hover_data</span><span class="o">=</span><span class="p">{</span>
+        <span class="s1">&#39;Vrouw&#39;</span><span class="p">:</span> <span class="s1">&#39;:.2f&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;Man&#39;</span><span class="p">:</span> <span class="s1">&#39;:.2f&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;verschil&#39;</span><span class="p">:</span> <span class="s1">&#39;:.2f&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;age_group&#39;</span><span class="p">:</span> <span class="kc">False</span>
+    <span class="p">},</span>
+    <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;lightblue&#39;</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;verschil&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">*</span> <span class="mf">1.1</span><span class="p">]),</span>
+    <span class="n">template</span><span class="o">=</span><span class="s1">&#39;plotly_white&#39;</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;ipython-input-52-611398592&gt;:12: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+</pre></div>
+</div>
+<div class="output text_html"><html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="c9e66ef8-91e4-43d4-b978-997cbdd90405" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("c9e66ef8-91e4-43d4-b978-997cbdd90405")) {                    Plotly.newPlot(                        "c9e66ef8-91e4-43d4-b978-997cbdd90405",                        [{"alignmentgroup":"True","customdata":[[15.466486317286924,18.038996445896036],[18.292471650103874,22.49260409233012],[18.90132904499246,25.66075009754244],[19.941331969310937,27.400893052196412],[19.37845326053003,29.744559390484767],[20.518074371850535,30.85010515569814],[20.456153458784115,30.989523454913943],[22.00308735781206,29.997507331667155]],"hovertemplate":"Uurloon verschil (absoluut)=%{y:.2f}\u003cbr\u003eVrouw=%{customdata[0]:.2f}\u003cbr\u003eMan=%{customdata[1]:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"lightblue","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64"],"xaxis":"x","y":[2.572510128609112,4.200132442226245,6.759421052549982,7.459561082885475,10.366106129954737,10.332030783847607,10.533369996129828,7.994419973855095],"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Leeftijdsgroep"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Uurloon verschil (absoluut)"},"range":[0,11.586706995742812]},"legend":{"tracegroupgap":0},"title":{"text":"Absoluut verschil gemiddeld uurloon tussen vrouw en man per leeftijdsgroep"},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('c9e66ef8-91e4-43d4-b978-997cbdd90405');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html></div></div>
+</div>
+<p>Deze grafiek met staafdiagrammen toont per leeftijdsgroep van vijf jaar het absolute verschil in gemiddeld uurloon tussen mannen en vrouwen. Hoe hoger de blauwe balk, hoe groter het loonverschil binnen die groep. Zo kun je eenvoudig zien in welke leeftijdscategorieën het verschil tussen mannelijke en vrouwelijke lonen het meest voorkomt.</p>
+<p><strong>Regio’s</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.graph_objects</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">go</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PanelStudyIncomeDynamics.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">0</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span>
+    <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Northeast&#39;</span><span class="p">,</span>
+    <span class="mi">2</span><span class="p">:</span> <span class="s1">&#39;North Central&#39;</span><span class="p">,</span>
+    <span class="mi">3</span><span class="p">:</span> <span class="s1">&#39;South&#39;</span><span class="p">,</span>
+    <span class="mi">4</span><span class="p">:</span> <span class="s1">&#39;West&#39;</span>
+<span class="p">})</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">grouped</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;gender&#39;</span><span class="p">])[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+
+<span class="n">colors</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Man&#39;</span><span class="p">:</span> <span class="s1">&#39;lightblue&#39;</span><span class="p">,</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">:</span> <span class="s1">&#39;pink&#39;</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">gender</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">]:</span>
+    <span class="n">subset</span> <span class="o">=</span> <span class="n">grouped</span><span class="p">[</span><span class="n">grouped</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">gender</span><span class="p">]</span>
+    <span class="n">first_trace</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">subset</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+            <span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">]],</span>
+            <span class="n">y</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]],</span>
+            <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;lines&#39;</span><span class="p">,</span>
+            <span class="n">line</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="n">colors</span><span class="p">[</span><span class="n">gender</span><span class="p">],</span> <span class="n">width</span><span class="o">=</span><span class="mi">3</span><span class="p">),</span>
+            <span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span>
+        <span class="p">))</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+            <span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">]],</span>
+            <span class="n">y</span><span class="o">=</span><span class="p">[</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]],</span>
+            <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">,</span>
+            <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="n">colors</span><span class="p">[</span><span class="n">gender</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">),</span>
+            <span class="n">name</span><span class="o">=</span><span class="n">gender</span> <span class="k">if</span> <span class="n">first_trace</span> <span class="k">else</span> <span class="kc">None</span><span class="p">,</span>
+            <span class="n">showlegend</span><span class="o">=</span><span class="n">first_trace</span>
+        <span class="p">))</span>
+        <span class="n">first_trace</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Gemiddeld uurloon per regio en geslacht&#39;</span><span class="p">,</span>
+    <span class="n">xaxis_title</span><span class="o">=</span><span class="s1">&#39;Regio&#39;</span><span class="p">,</span>
+    <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;Gemiddeld uurloon&#39;</span><span class="p">,</span>
+    <span class="n">template</span><span class="o">=</span><span class="s1">&#39;plotly_white&#39;</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="e8f8e4ad-7f7e-4744-bba8-003aef65f182" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("e8f8e4ad-7f7e-4744-bba8-003aef65f182")) {                    Plotly.newPlot(                        "e8f8e4ad-7f7e-4744-bba8-003aef65f182",                        [{"line":{"color":"lightblue","width":3},"mode":"lines","showlegend":false,"x":["North Central","North Central"],"y":[0,24.92946493642818],"type":"scatter"},{"marker":{"color":"lightblue","size":12},"mode":"markers","name":"Man","showlegend":true,"x":["North Central"],"y":[24.92946493642818],"type":"scatter"},{"line":{"color":"lightblue","width":3},"mode":"lines","showlegend":false,"x":["Northeast","Northeast"],"y":[0,31.171876520241877],"type":"scatter"},{"marker":{"color":"lightblue","size":12},"mode":"markers","showlegend":false,"x":["Northeast"],"y":[31.171876520241877],"type":"scatter"},{"line":{"color":"lightblue","width":3},"mode":"lines","showlegend":false,"x":["South","South"],"y":[0,22.533544892009267],"type":"scatter"},{"marker":{"color":"lightblue","size":12},"mode":"markers","showlegend":false,"x":["South"],"y":[22.533544892009267],"type":"scatter"},{"line":{"color":"lightblue","width":3},"mode":"lines","showlegend":false,"x":["West","West"],"y":[0,28.824317814977213],"type":"scatter"},{"marker":{"color":"lightblue","size":12},"mode":"markers","showlegend":false,"x":["West"],"y":[28.824317814977213],"type":"scatter"},{"line":{"color":"pink","width":3},"mode":"lines","showlegend":false,"x":["North Central","North Central"],"y":[0,18.266010422008396],"type":"scatter"},{"marker":{"color":"pink","size":12},"mode":"markers","name":"Vrouw","showlegend":true,"x":["North Central"],"y":[18.266010422008396],"type":"scatter"},{"line":{"color":"pink","width":3},"mode":"lines","showlegend":false,"x":["Northeast","Northeast"],"y":[0,22.977062436279105],"type":"scatter"},{"marker":{"color":"pink","size":12},"mode":"markers","showlegend":false,"x":["Northeast"],"y":[22.977062436279105],"type":"scatter"},{"line":{"color":"pink","width":3},"mode":"lines","showlegend":false,"x":["South","South"],"y":[0,16.853487229642724],"type":"scatter"},{"marker":{"color":"pink","size":12},"mode":"markers","showlegend":false,"x":["South"],"y":[16.853487229642724],"type":"scatter"},{"line":{"color":"pink","width":3},"mode":"lines","showlegend":false,"x":["West","West"],"y":[0,21.509931328654005],"type":"scatter"},{"marker":{"color":"pink","size":12},"mode":"markers","showlegend":false,"x":["West"],"y":[21.509931328654005],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Gemiddeld uurloon per regio en geslacht"},"xaxis":{"title":{"text":"Regio"}},"yaxis":{"title":{"text":"Gemiddeld uurloon"}}},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('e8f8e4ad-7f7e-4744-bba8-003aef65f182');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html></div></div>
+</div>
+<p>Deze lollipoppgrafiek visualiseert het absolute verschil in gemiddeld uurloon tussen mannen en vrouwen per leeftijdsgroep. De x-as toont leeftijdsgroepen van vijf jaar, de y-as het uurloonderscheid. De punten benadrukken dat het verschil groter is in sommige leeftijdsgroepen, wat wijst op ongelijkheden in loon die variëren met leeftijd.</p>
+<p><strong>In de loop der jaren</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PanelStudyIncomeDynamics.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;female&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">0</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+<span class="n">time_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;wave&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">())]</span>
+<span class="n">wave_grouped</span> <span class="o">=</span> <span class="n">time_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;wave&#39;</span><span class="p">,</span> <span class="s1">&#39;gender&#39;</span><span class="p">])[</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">wave_grouped</span><span class="p">,</span>
+              <span class="n">x</span><span class="o">=</span><span class="s1">&#39;wave&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;gender&#39;</span><span class="p">,</span>
+              <span class="n">color_discrete_map</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;Man&#39;</span><span class="p">:</span> <span class="s1">&#39;lightblue&#39;</span><span class="p">,</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">:</span> <span class="s1">&#39;pink&#39;</span><span class="p">},</span>
+              <span class="n">labels</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;realhrwage&#39;</span><span class="p">:</span> <span class="s1">&#39;Gemiddeld uurloon&#39;</span><span class="p">,</span> <span class="s1">&#39;wave&#39;</span><span class="p">:</span> <span class="s1">&#39;Jaar&#39;</span><span class="p">},</span>
+              <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Ontwikkeling van gemiddeld uurloon door de tijd (per geslacht)&#39;</span><span class="p">)</span>
+
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">template</span><span class="o">=</span><span class="s1">&#39;plotly_white&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="9f439908-4dea-42ab-bc83-49bb14687218" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("9f439908-4dea-42ab-bc83-49bb14687218")) {                    Plotly.newPlot(                        "9f439908-4dea-42ab-bc83-49bb14687218",                        [{"hovertemplate":"gender=Man\u003cbr\u003eJaar=%{x}\u003cbr\u003eGemiddeld uurloon=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Man","line":{"color":"lightblue","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Man","orientation":"v","showlegend":true,"x":[1981,1990,1999,2007,2009,2011],"xaxis":"x","y":[21.33531158423621,22.119729872546,25.35294335431839,26.977647809406278,28.852948087786178,28.689117781747544],"yaxis":"y","type":"scatter"},{"hovertemplate":"gender=Vrouw\u003cbr\u003eJaar=%{x}\u003cbr\u003eGemiddeld uurloon=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Vrouw","line":{"color":"pink","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"Vrouw","orientation":"v","showlegend":true,"x":[1981,1990,1999,2007,2009,2011],"xaxis":"x","y":[13.723759942008677,15.77125679249401,18.513428103649755,20.50276320518402,21.178185925537147,21.02522422208989],"yaxis":"y","type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Jaar"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Gemiddeld uurloon"}},"legend":{"title":{"text":"gender"},"tracegroupgap":0},"title":{"text":"Ontwikkeling van gemiddeld uurloon door de tijd (per geslacht)"}},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('9f439908-4dea-42ab-bc83-49bb14687218');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html></div></div>
+</div>
+<p>Deze lijngrafiek toont het gemiddelde uurloon door de jaren heen, uitgesplitst naar mannen en vrouwen. De x-as geeft de meetjaren weer, de y-as het gemiddelde uurloon in dollars. De grafiek laat zien dat mannen consistent een hoger uurloon hebben dan vrouwen, met een lichte stijging voor beide groepen over de tijd.</p>
+<p><strong>Educatie</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;Glassdoor Gender Pay Gap.csv&quot;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Gender&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="s1">&#39;Male&#39;</span><span class="p">,</span> <span class="s1">&#39;Female&#39;</span><span class="p">])]</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Gender&#39;</span><span class="p">,</span> <span class="s1">&#39;BasePay&#39;</span><span class="p">,</span> <span class="s1">&#39;Education&#39;</span><span class="p">,</span> <span class="s1">&#39;Dept&#39;</span><span class="p">])</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Dept&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Dept&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Education&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Education&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;BasePay&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;BasePay&#39;</span><span class="p">],</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;BasePay&#39;</span><span class="p">])</span>
+
+<span class="n">grouped</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;Dept&#39;</span><span class="p">,</span> <span class="s1">&#39;Education&#39;</span><span class="p">,</span> <span class="s1">&#39;Gender&#39;</span><span class="p">])[</span><span class="s1">&#39;BasePay&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">pivot</span> <span class="o">=</span> <span class="n">grouped</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Dept&#39;</span><span class="p">,</span> <span class="s1">&#39;Education&#39;</span><span class="p">],</span>
+                             <span class="n">columns</span><span class="o">=</span><span class="s1">&#39;Gender&#39;</span><span class="p">,</span>
+                             <span class="n">values</span><span class="o">=</span><span class="s1">&#39;BasePay&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;PayGap&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;Male&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">pivot</span><span class="p">[</span><span class="s1">&#39;Female&#39;</span><span class="p">]</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
+
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">pivot</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span> <span class="s1">&#39;Dept&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span> <span class="s1">&#39;PayGap&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span> <span class="s1">&#39;Education&#39;</span><span class="p">,</span>
+             <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Loonverschil tussen mannen en vrouwen per afdeling en opleidingsniveau&#39;</span><span class="p">,</span>
+             <span class="n">labels</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;PayGap&#39;</span><span class="p">:</span> <span class="s1">&#39;Loonverschil&#39;</span><span class="p">,</span> <span class="s1">&#39;Department&#39;</span><span class="p">:</span> <span class="s1">&#39;Afdeling&#39;</span><span class="p">,</span> <span class="s1">&#39;Education&#39;</span><span class="p">:</span> <span class="s1">&#39;Opleidingsniveau&#39;</span><span class="p">},</span>
+                          <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="n">px</span><span class="o">.</span><span class="n">colors</span><span class="o">.</span><span class="n">qualitative</span><span class="o">.</span><span class="n">Plotly</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;group&#39;</span><span class="p">,</span> <span class="n">xaxis_title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y:.2f}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;outside&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">legend_title_text</span><span class="o">=</span><span class="s1">&#39;Opleidingsniveau&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title_x</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">title_y</span><span class="o">=</span><span class="mf">0.95</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">margin</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">l</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">t</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">20</span><span class="p">),</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">800</span>
+<span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="e877477e-5f72-42be-854b-dc97fa54141b" class="plotly-graph-div" style="height:600px; width:800px;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("e877477e-5f72-42be-854b-dc97fa54141b")) {                    Plotly.newPlot(                        "e877477e-5f72-42be-854b-dc97fa54141b",                        [{"alignmentgroup":"True","hovertemplate":"Opleidingsniveau=College\u003cbr\u003eDept=%{x}\u003cbr\u003eLoonverschil=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"College","marker":{"color":"#636EFA","pattern":{"shape":""}},"name":"College","offsetgroup":"College","orientation":"v","showlegend":true,"textposition":"outside","x":["Administration","Engineering","Management","Operations","Sales"],"xaxis":"x","y":[11280.857142857145,-3484.8097826086887,14545.523809523816,10732.583333333328,23362.284511784514],"yaxis":"y","type":"bar","texttemplate":"%{y:.2f}"},{"alignmentgroup":"True","hovertemplate":"Opleidingsniveau=High school\u003cbr\u003eDept=%{x}\u003cbr\u003eLoonverschil=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"High school","marker":{"color":"#EF553B","pattern":{"shape":""}},"name":"High school","offsetgroup":"High school","orientation":"v","showlegend":true,"textposition":"outside","x":["Administration","Engineering","Management","Operations","Sales"],"xaxis":"x","y":[3449.4509090909123,2684.432692307688,12091.230769230766,10717.346666666665,-1542.365517241371],"yaxis":"y","type":"bar","texttemplate":"%{y:.2f}"},{"alignmentgroup":"True","hovertemplate":"Opleidingsniveau=Masters\u003cbr\u003eDept=%{x}\u003cbr\u003eLoonverschil=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Masters","marker":{"color":"#00CC96","pattern":{"shape":""}},"name":"Masters","offsetgroup":"Masters","orientation":"v","showlegend":true,"textposition":"outside","x":["Administration","Engineering","Management","Operations","Sales"],"xaxis":"x","y":[9619.983703703707,20190.08095238096,-281.48106060604914,2753.6029411764757,10200.24677419354],"yaxis":"y","type":"bar","texttemplate":"%{y:.2f}"},{"alignmentgroup":"True","hovertemplate":"Opleidingsniveau=Phd\u003cbr\u003eDept=%{x}\u003cbr\u003eLoonverschil=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Phd","marker":{"color":"#AB63FA","pattern":{"shape":""}},"name":"Phd","offsetgroup":"Phd","orientation":"v","showlegend":true,"textposition":"outside","x":["Administration","Engineering","Management","Operations","Sales"],"xaxis":"x","y":[12289.733333333337,15263.555194805202,-3312.563492063491,1285.1955555555614,7522.208333333343],"yaxis":"y","type":"bar","texttemplate":"%{y:.2f}"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{}},"legend":{"title":{"text":"Opleidingsniveau"},"tracegroupgap":0},"title":{"text":"Loonverschil tussen mannen en vrouwen per afdeling en opleidingsniveau","x":0.5,"y":0.95},"barmode":"group","margin":{"l":20,"r":20,"t":50,"b":20},"height":600,"width":800},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('e877477e-5f72-42be-854b-dc97fa54141b');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html></div></div>
+</div>
+<p>In dit staafdiagram is te zien dat mannen in de meeste departementen meer verdienen dan vrouwen, en dat dit ook afhangt van het opleidingsniveau. Er is hier te zien dat in de meeste departementen mannen meer verdienen dan vrouwen.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+
+<span class="c1"># Dataset</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;PanelStudyIncomeDynamics.csv&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;ISO-8859-1&quot;</span><span class="p">,</span> <span class="n">on_bad_lines</span><span class="o">=</span><span class="s2">&quot;skip&quot;</span><span class="p">)</span>
+
+<span class="c1"># Pre</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;sch&#39;</span><span class="p">,</span> <span class="s1">&#39;annlabinc&#39;</span><span class="p">,</span> <span class="s1">&#39;sex&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;annlabinc&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;annlabinc&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">500000</span><span class="p">)]</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;sex&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;sex&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">({</span><span class="s1">&#39;Male&#39;</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="s1">&#39;Female&#39;</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;sex&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;sex&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Man&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Inkomen versus scholing per geslacht</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;sch&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;annlabinc&#39;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Inkomen versus Scholing per Geslacht&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Aantal jaren scholing&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Jaarlijks inkomen ($)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Geslacht&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/6979dcb4df092c9a3b766459dbac0d08592eb880f9e5134fabf43da9002e8266.png" src="../_images/6979dcb4df092c9a3b766459dbac0d08592eb880f9e5134fabf43da9002e8266.png" />
+</div>
+</div>
+<p>Deze scatterplot toont het verband tussen aantal jaren scholing en het jaarlijks inkomen. We kunnen hier uit opmaken dat meer scholing leidt tot hoger inkomen. Op elk scholingsniveau verdienen vrouwen minder dan mannen. De inkomensspreiding is groter bij mannen.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Boxplot voor jaarlijkse arbeidsinkomen per geslacht</span>
+<span class="n">kleuren</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Man&#39;</span><span class="p">:</span> <span class="s1">&#39;lightblue&#39;</span><span class="p">,</span> <span class="s1">&#39;Vrouw&#39;</span><span class="p">:</span> <span class="s1">&#39;pink&#39;</span><span class="p">}</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;annlabinc&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Jaarlijks Arbeidsinkomen per Geslacht&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Geslacht&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Jaarlijks Inkomen (USD)&#39;</span><span class="p">)</span>
+<span class="c1"># Create boxplot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/94e9543b2190c0428dc53a2264b17f8fd946006acfed1af952899d098e674a23.png" src="../_images/94e9543b2190c0428dc53a2264b17f8fd946006acfed1af952899d098e674a23.png" />
+</div>
+</div>
+<p>Deze boxplot toont de verdeling van het jaarlijkse arbeidsinkomen van mannen en vrouwen. De mediaan ligt hoger bij mannen dan bij vrouwen. Dit wijst op een structureel verschil van inkomen tussen de twee genders. Wel is te zien dat zowel bij mannen als bij vrouwen er uitschieters zijn; hoewel dit er meer zijn bij mannen.</p>
+<p>Bronvermelding:</p>
+<p>University of Sunderland. (z.d.). Is the Gender Pay Gap Another Feminist Myth? If Not, Is It Finally Time for The Status Quo To Be Redefined?  - SURE. Geraadpleegd op 17 juni 2025, van <a class="reference external" href="https://sure.sunderland.ac.uk/id/eprint/13422/">https://sure.sunderland.ac.uk/id/eprint/13422/</a></p>
 </section>
-<section id="update-the-website-content">
-<h2>Update the website content<a class="headerlink" href="#update-the-website-content" title="Link to this heading">#</a></h2>
-<p><a name="update"></a></p>
-<p>After completing all the above steps, you should now have a remote repository on GitHub and a local repository on your computer.
-Your local repository should be a folder with the name that we asked you to rename (i.e., the <code class="docutils literal notranslate"><span class="pre">MY_REPOSITORY_NAME</span></code> in the previous steps).
-If you are still confused about why there are remote and local repositories, check the 15-minute Git tutorial video that is mentioned in the <a class="reference internal" href="#pre"><span class="xref myst">Prerequisites</span></a>.</p>
-<p>If you cannot find the location of the folder on your computer, find it using the search functionality on your computer’s operating system.
-Use your repository name as the search keyword.
-For Windows users, there should be a search bar near the Windows start menu.
-For Mac users, there should be a magnifying glass icon at the top right.</p>
-<p>Now you can start to work on your notebook or markdown files.
-We recommend that you start with the <code class="docutils literal notranslate"><span class="pre">notebook.ipynb</span></code> file and replace the content with your code and text.
-If you already have an existing notebook, you can replace the original <code class="docutils literal notranslate"><span class="pre">notebook.ipynb</span></code> file with your notebook and rename the file with <code class="docutils literal notranslate"><span class="pre">notebook.ipynb</span></code>.</p>
-<p>To update the content of your website, <strong>repeat step 4 and 5 without the package installation parts</strong>.
-Step 4 will rebuild the book, which means compiling/translating the notebook and markdown files into HTML/CSS/JavaScript files.
-Step 5 will push your new content to the GitHub repository and update the online content of your website.
-We provide the example terminal commands below:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>build<span class="w"> </span>--all<span class="w"> </span>.
-git<span class="w"> </span>status
-git<span class="w"> </span>add<span class="w"> </span>.
-git<span class="w"> </span>status
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Update my book.&quot;</span>
-git<span class="w"> </span>push
-ghp-import<span class="w"> </span>-n<span class="w"> </span>-p<span class="w"> </span>-f<span class="w"> </span>_build/html
-</pre></div>
-</div>
-<p>If for some reasons, your changes are not reflected in the newly built website, you can first <a class="reference external" href="https://jupyterbook.org/en/stable/basics/build.html">clean up the content</a> by using the following command, and then run the above commands to build the book again.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>clean<span class="w"> </span>.
-</pre></div>
-</div>
-<p>Every time you build some new files (or updated files), you need to rebuild the book and push new changes to your remote GitHub repository.
-This, again, will take some time for GitHub to process the changes and update the website.
-You can check the Actions page (as shown in the image below) for the status.</p>
-<p><img alt="actions_page" src="../_images/actions_page.png" /></p>
-<p>If the Actions page shows that the status is good with a green checkmark (as shown in the image below), it means that the webpage is successfully updated.
-If you still do not see the changes on your browser, either wait for a while or clear the browser cache.
-Search online (e.g., Google) to know how to clear your browser cache.</p>
-<p><img alt="page_updated" src="../_images/page_updated.png" /></p>
-<p>If you have multiple notebook files that you want to add to the website, you will need to edit the <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> file.
-Check <a class="reference external" href="https://jupyterbook.org/en/stable/basics/organize.html">this Jupyter Book documentation</a> about how to edit the table of content.</p>
+<section class="tex2jax_ignore mathjax_ignore" id="reflectie">
+<h1>Reflectie<a class="headerlink" href="#reflectie" title="Link to this heading">#</a></h1>
 </section>
-<section id="troubleshooting">
-<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h2>
-<p><a name="ts"></a></p>
-<p>Below we list some common errors and possible solutions.
-If you still encounter problems, search online to figure out how other people tackle similar problems.
-You can copy/paste the error message in the search query.
-You may be able to find solutions on Stack Overflow or other people’s blogs.</p>
-<p>Q1: I get errors when running the <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">build</span></code> command. What should I do?</p>
-<ul class="simple">
-<li><p>It is possible that your packages in the conda environment are too old. Try upgrading your conda environment and also the Python packages in the environment.</p></li>
-<li><p>If there are still errors, create a new conda environment and use a different way to install Jupyter Book. For example, if you used <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code>, try using <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code> instead.</p></li>
-<li><p>Check if you use some packages that you did not install in your <code class="docutils literal notranslate"><span class="pre">jupyterbook</span></code> conda environment. Install the missing packages.</p></li>
-</ul>
-<p>Q2: I get errors after running the <code class="docutils literal notranslate"><span class="pre">ghp-import</span></code> or <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code> commands after entering my personal access token. What should I do?</p>
-<ul class="simple">
-<li><p>Check if your personal access token has expired on GitHub. You can create a new token and give it a longer expiration time.</p></li>
-<li><p>Try to create a new personal access token on GitHub and give it the permissions/scopes of editing repositories. The token that you created may have the wrong permissions/scopes, so you cannot push changes to GitHub.</p></li>
-<li><p>Check if there are messages in your terminal that tell you to do something. For example, you may be asked to add the URL to your repository by using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">add</span></code>. Or you may be asked to run a different <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code> command.</p></li>
-</ul>
-<p>Q3: My Jupyter Book installation is still pending forever after following step 2. What should I do?</p>
-<ul class="simple">
-<li><p>Try using a different terminal for installation, such as the Anaconda command prompt.</p></li>
-<li><p>Try closing the entire terminal program and re-run step 2 again. Do not skip any commands.</p></li>
-</ul>
-<p>Q4: I followed all the steps but my webpage does not have anything, or my webpage is not updated. What should I do?</p>
-<ul class="simple">
-<li><p>Check if your repository has the (updated) content. You may fail to push the code correctly to the GitHub repository. You can check this by using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code>, which should indicate that you have no pending changes.</p></li>
-<li><p>Sometimes it will take a while for GitHub to update your page. Give it some time and check later. You can go to the “Actions” page in your GitHub repository to check the status.</p></li>
-<li><p>Your browser may have an old cache that does not reflect new changes. Search online about how to clear your browser cache. After cleaning the cache, check the website again.</p></li>
-</ul>
-</section>
+<section class="tex2jax_ignore mathjax_ignore" id="werkverdeling">
+<h1>Werkverdeling<a class="headerlink" href="#werkverdeling" title="Link to this heading">#</a></h1>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Taak</p></th>
+<th class="head"><p>Uitgevoerd door wie</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Schrijven introductie</p></td>
+<td><p>Esmee, Eelkje</p></td>
+</tr>
+<tr class="row-odd"><td><p>schrijven perspectieven</p></td>
+<td><p>Eelkje, Denise</p></td>
+</tr>
+<tr class="row-even"><td><p>Datasets uitwerken</p></td>
+<td><p>Micha, Denise, Esmee</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grafieken plotten</p></td>
+<td><p>Micha, Esmee</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Als communicatiemiddel gebruikten we WatsApp. Via deze appicatie konden we snel informatie met elkaar uitwisselen, zoals het verdelen van onderdelen in verslagen en het afstemmen van deadlines. Dankzij een groepschat met alle teamleden verliep de communciatie soepel en werd er snel op elkaar gereageerd.</p>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -832,7 +1142,7 @@ You may be able to find solutions on Stack Overflow or other people’s blogs.</
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Example Notebook</p>
+        <p class="prev-next-title">Introduction</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -852,27 +1162,30 @@ You may be able to find solutions on Stack Overflow or other people’s blogs.</
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#register-a-github-account">Register a GitHub account</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-github-personal-access-token">Create a GitHub personal access token</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-the-environment-to-run-jupyter-notebook">Install the environment to run Jupyter notebook</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-git-and-git-bash-windows-only">Install git and Git Bash (Windows only)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#familiarize-yourself-with-git">Familiarize yourself with git</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Information Visualization</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introductie">Introductie</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#perspectief-1-systemische-ongelijkheid-en-structurele-barrieres">Perspectief 1: Systemische ongelijkheid en structurele barrières</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#perspectief-2-individuele-keuzes-en-rolpatronen">Perspectief 2: Individuele keuzes en rolpatronen</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-install-conda">Step 1: Install conda</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-install-jupyter-book">Step 2: Install Jupyter Book</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#for-mac-and-linux-to-install-jupyter-book">For Mac and Linux to install Jupyter Book</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#for-windows-to-install-jupyter-book">For Windows to install Jupyter Book</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-and-preprocessing">Dataset and Preprocessing</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-1-glassdoor-analyze-gender-pay-gap">Dataset 1 - Glassdoor - Analyze Gender Pay Gap</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#belangrijkste-variabelen-voor-analyse">Belangrijkste variabelen voor analyse:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing-stappen">Preprocessing-stappen:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-create-a-new-repository">Step 3: Create a new repository</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-build-the-book-locally">Step 4: Build the book locally</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-deploy-the-book-online">Step 5: Deploy the book online</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#update-the-website-content">Update the website content</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-2-gender-pay-gap-dataset">Dataset 2 - Gender Pay Gap Dataset</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#de-dataset-bevat-per-individu-gegevens-over">De dataset bevat per individu gegevens over:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Preprocessing-stappen:</a></li>
 </ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-vanuit-eigen-perspectief">Analyse vanuit eigen perspectief</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#reflectie">Reflectie</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#werkverdeling">Werkverdeling</a></li>
+</ul>
+
   </nav></div>
 
 </div></div>
