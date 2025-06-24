@@ -18,3 +18,12 @@ Voor deze datastory zijn er gegevens gehaald uit de volgende twee datasets:
 - **Formaat:** CSV, gescheiden door komma's
 - **Grootte:** ± 58.96 kB
 - **Laatste update:** 5 jaar geleden
+
+### Instructies voor beide datasets
+1. Download het bestand via de link van de bron.
+2. Sla het op in, dit hoeft niet in een bepaalde mpaje.
+3. Behoud dezelfde bestandsnaam van de download.
+4. Voer daarna de notebooks uit — zij gebruiken dit bestand automatisch.
+
+## Opmerking
+Dataset 1 is te groot voor Git, zorg er dus voor dat je het niet toevoegt aan je Git repository.
