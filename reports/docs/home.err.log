@@ -1,0 +1,111 @@
+Traceback (most recent call last):
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 154, in wrapped
+    asyncio.get_running_loop()
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/nbclient/client.py", line 1319, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 158, in wrapped
+    return loop.run_until_complete(inner)
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/eelkjetalsma/miniconda3/envs/jupyterbook/lib/python3.10/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# @title kinderen
+
+df = pd.read_csv('Panel_cleaned.csv')
+df['gender'] = df['female'].map({0: 'Man', 1: 'Vrouw'})
+age_wage = df.groupby(['age', 'gender'])['realhrwage'].mean().reset_index()
+
+mother_age_df = pd.read_csv('Average age of mother (years).csv', sep=';', decimal=',')
+latest_data = mother_age_df[mother_age_df['Year'] == 2022].iloc[0]
+motherhood_ages = {
+    'Eerste kind': latest_data['For first child'],
+    'Tweede kind': latest_data['For second child'],
+    'Gemiddeld voor alle kinderen': latest_data['For all children']
+}
+
+fig = go.Figure()
+kleuren = {'Man': 'lightblue', 'Vrouw': 'pink'}
+
+for gender in age_wage['gender'].unique():
+    subset = age_wage[age_wage['gender'] == gender]
+    x = subset['age']
+    y = subset['realhrwage']
+
+    fig.add_trace(go.Scatter(
+        x=x, y=y, mode='lines+markers', name=gender, line=dict(color=kleuren[gender])
+    ))
+
+    coeffs = np.polyfit(x, y, 1)
+    trend = np.polyval(coeffs, x)
+    fig.add_trace(go.Scatter(
+        x=x, y=trend, mode='lines', name=f'{gender} trend',
+        line=dict(color=kleuren[gender], dash='dot'), showlegend=False
+    ))
+
+mother_colors = {
+    'Eerste kind': '#FF7F0E',
+    'Tweede kind': '#2CA02C',
+    'Gemiddeld voor alle kinderen': '#9467BD'
+}
+
+y_min = age_wage['realhrwage'].min()
+y_max = age_wage['realhrwage'].max()
+
+for label, age in motherhood_ages.items():
+    fig.add_trace(go.Scatter(
+        x=[age, age],
+        y=[y_min, y_max],
+        mode='lines',
+        name=label,
+        line=dict(dash='dash', color=mother_colors[label], width=2)
+    ))
+
+fig.update_layout(
+    title='Gemiddeld uurloon per leeftijd (m/v) met moederschapsleeftijden (2022)',
+    xaxis_title='Leeftijd',
+    yaxis_title='Gemiddeld uurloon (gecorrigeerd voor inflatie)',
+    template='plotly_white',
+    legend=dict(x=0.01, y=0.99),
+    margin=dict(b=80),
+    annotations=[
+        dict(text=f"Moederschapsleeftijden uit {latest_data['Year']}",
+             xref="paper", yref="paper",
+             x=0.5, y=-0.15, showarrow=False,
+             font=dict(size=10, color="grey"))
+    ]
+)
+
+fig.show()
+
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+Cell [0;32mIn[7], line 27[0m
+[1;32m     21[0m y [38;5;241m=[39m subset[[38;5;124m'[39m[38;5;124mrealhrwage[39m[38;5;124m'[39m]
+[1;32m     23[0m fig[38;5;241m.[39madd_trace(go[38;5;241m.[39mScatter(
+[1;32m     24[0m     x[38;5;241m=[39mx, y[38;5;241m=[39my, mode[38;5;241m=[39m[38;5;124m'[39m[38;5;124mlines+markers[39m[38;5;124m'[39m, name[38;5;241m=[39mgender, line[38;5;241m=[39m[38;5;28mdict[39m(color[38;5;241m=[39mkleuren[gender])
+[1;32m     25[0m ))
+[0;32m---> 27[0m coeffs [38;5;241m=[39m [43mnp[49m[38;5;241m.[39mpolyfit(x, y, [38;5;241m1[39m)
+[1;32m     28[0m trend [38;5;241m=[39m np[38;5;241m.[39mpolyval(coeffs, x)
+[1;32m     29[0m fig[38;5;241m.[39madd_trace(go[38;5;241m.[39mScatter(
+[1;32m     30[0m     x[38;5;241m=[39mx, y[38;5;241m=[39mtrend, mode[38;5;241m=[39m[38;5;124m'[39m[38;5;124mlines[39m[38;5;124m'[39m, name[38;5;241m=[39m[38;5;124mf[39m[38;5;124m'[39m[38;5;132;01m{[39;00mgender[38;5;132;01m}[39;00m[38;5;124m trend[39m[38;5;124m'[39m,
+[1;32m     31[0m     line[38;5;241m=[39m[38;5;28mdict[39m(color[38;5;241m=[39mkleuren[gender], dash[38;5;241m=[39m[38;5;124m'[39m[38;5;124mdot[39m[38;5;124m'[39m), showlegend[38;5;241m=[39m[38;5;28;01mFalse[39;00m
+[1;32m     32[0m ))
+
+[0;31mNameError[0m: name 'np' is not defined
+
